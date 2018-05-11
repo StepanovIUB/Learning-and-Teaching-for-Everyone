@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+        color: #A94343;;
+        font-size: 48px;
+        margin: 2px;
+}
+
+h2 {
+        color: #A94343;
+        font-size: 36px;
+        
+}
+
+p {
+	font-size: 16px;
+	text-align: justify;
+        line-height: 140%;
+        font-family:"Adobe Hebrew";
+}
+
+.disclaimer {
+	color: #435160;
+	margin: 2px;
+	font-size: 16px;
+        font-family:"Adobe Hebrew";
+}
+
+.sub_number {
+	color: #A94343;
+	font-weight:bold;
+}
+
+div {
+    padding: 30px;
+    margin: 30px;
+	border: none;
+}
+
+.intro {padding: 15px;
+    margin: 15px;
+	border: none;
+}
+
+.margins p {margin-bottom: 10px;}
+.margins h2 {margin-bottom: 10px;}

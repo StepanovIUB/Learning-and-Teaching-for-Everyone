@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px 0px 0px 0px;
+	background-color: #FFF;
+}
+
+p {
+	color: black;
+	font-weight: 14px;
+	line-height: 140%;
+	text-align: justify;
+	font-family:"Adobe Hebrew";
+}
+
+h3 {
+	color: #435160;
+	font-weight: bold;
+}
+
+ul {
+    list-style-image: url('check.png');
+}
+
+li {
+	color: black;
+	font-weight: 14px;
+	line-height: 140%;
+	text-align: justify;
+	font-family:"Adobe Hebrew";
+}
+
+form {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 700px;
+  	background: #fff;
+  	padding: 0px 20px 20px 10px;
+  	margin: 190px auto 30px;
+  	box-sizing: border-box;
+  	box-shadow: 0 0 1em #222;
+  	border-radius: 2px;
+  	font-family: "Adobe Hebrew";
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+
+
+input:required {
+	border-left: 4px solid #c33;
+}
+
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+	color: #c33;
+	border-color: #c33;
+}
+
+input:focus:invalid:focus,
+textarea:focus:invalid,focus,
+select:focus:invalid:focus {
+	border-color: #c33;
+	-webkit-box-shadow: 0 0 6px #fcc;
+		-moz-box-shadow: 0 0 6px #fcc;
+			box-shadow: 0 0 6px #fcc;
+}
+
+
+input[type="text"] {
+	display: inline-block;
+  	width: 250px;
+  	padding: 7px 12px;
+  	background: transparent;
+  	border: none;
+  	border-bottom: 1px solid #435160;
+  	outline: none;
+  	border-top: none;
+  	border-left: none;
+  	border-right: none;
+  	height: 30px;
+  	color: #6D7781;
+  	font-size: 15px;
+  	font-weight: bold;
+  	border-radius: 7px;
+}
+
+
+
+input[type="submit"] {
+	background: #A94343;
+	border: 0;
+	width: 340px;
+	height: 60px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.3s ease-in-out;
+	box-shadow: 2px;
+}
+
+input[type="submit"]:hover {
+	background: #A94343;
+	animation-name: shake;
+}
+
+
+
+
+
+
+
+.background {
+	background-image: url("tokyo_cropped.jpg");
+	width:100%;
+	height:796px;
+	margin: 0px;
+	position: relative;
+    clear: left;
+	margin-top: 25px;
+}
+
+.headline {
+	color:#A94343;
+	font-weight:bold;
+	text-align: center;
+	font-size: 38px;
+	margin: 0px;
+	padding-top: 15;
+	font-family: "Adobe Hebrew";
+}
+
+.subheader {
+	color:#435160;
+	text-align: center;
+	font-size: 26px;
+	margin: 0px;
+	margin-bottom:25px;
+	font-family: "Adobe Hebrew";
+}
+
+.reinforcment {
+	float: left;
+    width: 30%;
+	padding: 25px;
+	
+}
+
+.space {
+	clear:left;
+	margin:25px;
+	margin-bottom:50x;
+}
+
+.left {
+	width: 50%;
+	float: left;	
+}
+
+.right {
+	width: 45%;
+	float: right;
+	text-align: left;
+}
+
+.animated {
+	animation-duration: 2s;
+	animation-fill-mode: both;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
