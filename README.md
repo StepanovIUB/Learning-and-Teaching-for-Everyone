@@ -1,14 +1,12 @@
-# Learning-and-Teaching-for-Everyone
+# Learning and Teaching for Everyone
+
+❗ **Please note that this is a student project that is no longer active. It is kept here just for the historical records.** 
 
 Learning and Teaching for Everyone or L.T.E is a website that allows people 
 to share something they are passionate about. It also provides an opportunity to learn something new from other people. 
 Learning and Teaching for Everyone lets you look for activities and classes 
 and connect with people who have interests simillar to yours. You can start your own class or activity 
 and participate in classes and activities created by other users.
-
-## Link
-
-http://cgi.soic.indiana.edu/~stepanov/capstone_week_2/login.php
 
 ## Built With
 
@@ -25,13 +23,8 @@ http://cgi.soic.indiana.edu/~stepanov/capstone_week_2/login.php
 
 ## Authors
 
-* **Vladislav Stepanov** - *Initial Work* - [StepanovIUB](https://github.com/StepanovIUB)
-* **Jinwook Lee** -
-* **Kyubi Kang** -
-* **Hyuk Lee** -
-* **Soyeon Lee** -
-
-
-
-## Acknowledgments
-
+* **Vladislav Stepanov** - *Initial Work* - [vdoriru](https://github.com/vdoriru)
+* **Jinwook Lee** - *Untracked*
+* **Kyubi Kang** - *Untracked*
+* **Hyuk Lee** - *Untracked*
+* **Soyeon Lee** - *Untracked*
